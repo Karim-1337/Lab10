@@ -1,0 +1,25 @@
+<main class="page">
+  <section class="card" aria-labelledby="env-title">
+    <p class="eyebrow">Angular environments</p>
+    <h1 id="env-title">Current build configuration</h1>
+    <dl class="facts">
+      <div>
+        <dt>Environment</dt>
+        <dd>{{ environment.name }}</dd>
+      </div>
+      <div>
+        <dt>API base URL</dt>
+        <dd><code>{{ environment.apiUrl }}</code></dd>
+      </div>
+      <div>
+        <dt>production flag</dt>
+        <dd>{{ environment.production }}</dd>
+      </div>
+    </dl>
+    <p class="hint">
+      Values come from <code>src/environments/environment.*.ts</code> via
+      <code>fileReplacements</code> in <code>angular.json</code>.
+    </p>
+  </section>
+  <router-outlet />
+</main>

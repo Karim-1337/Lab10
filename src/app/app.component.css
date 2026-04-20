@@ -1,0 +1,77 @@
+.page {
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #e8f1ff, #f5f5f7 45%, #eef0f4);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.card {
+  width: min(36rem, 100%);
+  padding: 1.75rem 1.5rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 12px 40px rgb(15 23 42 / 0.12);
+  border: 1px solid rgb(15 23 42 / 0.06);
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0 0 1.25rem;
+  font-size: 1.35rem;
+  font-weight: 650;
+  color: #0f172a;
+  line-height: 1.25;
+}
+
+.facts {
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.facts > div {
+  padding: 0.75rem 0.85rem;
+  border-radius: 0.65rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+dt {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+dd {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+  color: #0f172a;
+  word-break: break-word;
+}
+
+code {
+  font-size: 0.9em;
+  background: #e2e8f0;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.35rem;
+}
+
+.hint {
+  margin: 1.25rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: #64748b;
+}
